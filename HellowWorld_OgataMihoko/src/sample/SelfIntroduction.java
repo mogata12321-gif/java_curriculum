@@ -4,11 +4,11 @@ public class SelfIntroduction {
 
 	public static void main(String[] args) {
 		//氏名
-		String name = "尾形　美帆子";
+		String name = "尾形 美帆子";
 		//年齢
 		int age = 27;
 		//趣味
-		String hobby = "３DCG制作・イラストレーション";
+		String hobby = "3DCG制作・イラストレーション";
 		
 		
 		/*
