@@ -158,6 +158,8 @@ public class Question3 {
 	        }
 
 	        sc.close();//Scannerを閉じる
+	        
+	        
 	    }
 	{
 					
