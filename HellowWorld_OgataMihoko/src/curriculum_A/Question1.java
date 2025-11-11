@@ -8,17 +8,26 @@ public class Question1 {
 	public static void main(String[] args) {
 
 		// Q1 各型の変数を宣言し、変数を入力
+		byte byteNum = 0;
+		short shortNum =0;
+		int intNum =0;
+		long longNum =0;
+		float floatNum =0.0f;
+		double doubleNum =0.0;
+		char letter ='\u0000';
+		String letters ="null";
+		boolean isBoolean =false;
+		
 		// Q2 数字を当てはめる
-
-		byte byteNum = 10;// 変数byteNumに10を代入
-		short shortNum = 100;// 変数shortNumに100を代入
-		int intNum = 1000;// 変数intNumに1000を代入
-		long longNum = 10000;// 変数longNumに10000を代入
-		float floatNum = 9.5f;// 変数floatNumに9.5fを代入
-		double doubleNum = 10.5;// 変数doubleNumに10.5を代入
-		char letter = 'a';// 変数letterに'a'を代入
-		String letters = "ハロー";// 変数lettersに"ハロー"を代入
-		boolean isBoolean = false;// 変数isBooleanにtrueを代入
+		byteNum = 10;// 変数byteNumに10を代入
+		shortNum = 100;// 変数shortNumに100を代入
+		intNum = 1000;// 変数intNumに1000を代入
+		longNum = 10000;// 変数longNumに10000を代入
+		floatNum = 9.5f;// 変数floatNumに9.5fを代入
+		doubleNum = 10.5;// 変数doubleNumに10.5を代入
+		letter = 'a';// 変数letterに'a'を代入
+		letters = "ハロー";// 変数lettersに"ハロー"を代入
+		isBoolean = true;// 変数isBooleanにtrueを代入
 
 		// Q3 問題文に沿って出力
 
@@ -78,8 +87,8 @@ public class Question1 {
 		System.out.println(result);// resultの値を出力
 
 		// Q12 条件演算子(三項演算子)
-		int X = 15;// 15を代入
-		String max = (X > 10) ? "OK" : "NG";// 三項演算子を使用
+		int x = 15;// 初期値として15を代入
+		String max = (x > 10) ? "OK" : "NG";// 三項演算子を使用
 		System.out.println(max);// 結果を出力
 
 		//Q13 文字置き換え
