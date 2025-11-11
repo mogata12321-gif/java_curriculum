@@ -9,15 +9,15 @@ public class Question1 {
 
 		// Q1 各型の変数を宣言し、変数を入力
 		byte byteNum = 0;
-		short shortNum =0;
-		int intNum =0;
-		long longNum =0;
-		float floatNum =0.0f;
-		double doubleNum =0.0;
-		char letter ='\u0000';
-		String letters ="null";
-		boolean isBoolean =false;
-		
+		short shortNum = 0;
+		int intNum = 0;
+		long longNum = 0;
+		float floatNum = 0.0f;
+		double doubleNum = 0.0;
+		char letter = '\u0000';
+		String letters = "null";
+		boolean isBoolean = false;
+
 		// Q2 数字を当てはめる
 		byteNum = 10;// 変数byteNumに10を代入
 		shortNum = 100;// 変数shortNumに100を代入
