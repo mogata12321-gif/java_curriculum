@@ -34,9 +34,4 @@ public class Animal {
 	public int getSpeed() {
 		return this.speed;
 	}
-
-	public static void main(String[] args) {
-
-	}
-
 }
