@@ -9,7 +9,7 @@ public class FullTimeEmployee extends Employee implements Payable {
 	@Override // interfaceにあるメソッドを上書きするため記入
 	public int calculatePay(int hoursWorked) {
 		int hourlyRate = 1250;
-		int overtime = (hoursWorked < 8) ? hoursWorked : 8;
+		int overtime = (hoursWorked > 8) ? hoursWorked - 8 : 0;
 		int regularHours = hoursWorked - overtime;
 		return (regularHours * hourlyRate) + (int) (overtime * hourlyRate * 1.25);
 	}
