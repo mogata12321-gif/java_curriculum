@@ -1,4 +1,4 @@
-package curriculum_B;
+package curriculum_B_Q4;
 
 public class FullTimeEmployee extends Employee {
 	private static final int HOURLY_RATE = 1200;// 全インスタンスで同じ値を共有し、定数にしたいためfinal必要

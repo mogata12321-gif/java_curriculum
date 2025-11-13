@@ -1,4 +1,4 @@
-package curriculum_B;
+package curriculum_B_Q4;
 
 public class PartTimeEmployee extends Employee {
 	private static final int HOURLY_RATE = 1000;//変更できない値を設定
