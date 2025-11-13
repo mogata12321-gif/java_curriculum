@@ -3,7 +3,6 @@ package curriculum_B;
 import java.util.ArrayList;// import明記必要
 import java.util.List;
 
-
 public class MainQ6 {
 	public static void main(String[] args) {
 		List<Billable> employees = new ArrayList<>();// インスタンス化するためにemployees作成、interfaceをリスト化
