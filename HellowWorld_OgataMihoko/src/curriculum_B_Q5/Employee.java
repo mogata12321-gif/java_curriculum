@@ -8,5 +8,6 @@ public abstract class Employee {
 		this.id = id;
 		this.name = name;
 	}
+
 	public abstract int calculateDailyWage(int hoursWorked);
 }

@@ -9,12 +9,14 @@ public abstract class Employee implements Billable {
 		this.id = id;
 		this.name = name;
 	}
+
 	@Override
 	public String getName() {// Biollableでgetterを宣言したものをここでインスタンス化
 		return name;
 	}
+
 	@Override
-    public String getId() {   // BillableのgetIdを実装
-        return id;
-    }
+	public String getId() { // BillableのgetIdを実装
+		return id;
+	}
 }

@@ -14,7 +14,7 @@ public class Main {
 
 		for (Billable emp : employees) {// for-eatch文使用
 			int salary = emp.costForDay(9);
-			System.out.println(emp.getId() + "：" +emp.getName() + " さんの日給は " + salary + " 円です。");
+			System.out.println(emp.getId() + "：" + emp.getName() + " さんの日給は " + salary + " 円です。");
 		}
 	}
 }
