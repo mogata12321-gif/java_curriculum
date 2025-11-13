@@ -17,23 +17,19 @@ public class Question3 {
 			if (even % 2 == 0) {
 				System.out.println(even);
 			}
-
 		}
 
 		// Q3
 		for (int down = 10; down >= 1; down--) {
 			System.out.println(down);
-
 		}
 
 		// Q4
 		int sum = 0;
 		for (int original = 1; original <= 100; original++) {
 			sum = sum + original;
-			if (sum == 5050) {
-				System.out.println(sum);
-			}
 		}
+		System.out.println(sum);
 
 		// Q5
 		for (int line = 1; line <= 5; line++) {// 行の数
@@ -71,7 +67,6 @@ public class Question3 {
 			sum2 = sum2 + number;// 合計は数字を合わせていくという意味
 			number++;// 数字はひとつづつ上がっていくという意味
 		} // ここで数字の処理は一旦まとめる（ここでまとめないと合計された数字がひとつづつ全て出力されてしまうため）
-
 		System.out.println(sum2);// 合計を出力
 
 		// Q10

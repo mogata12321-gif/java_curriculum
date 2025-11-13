@@ -1,8 +1,8 @@
-package curriculum_B;
+package curriculum_B_Q6;
 
-public class FullTimeEmployeeQ6 extends EmployeeQ6 {
+public class FullTimeEmployee extends Employee {
 	// EmployeeQ6を作るときにidとnameを受け取って自分自身のidとnameに設定する
-	public FullTimeEmployeeQ6(String id, String name) {
+	public FullTimeEmployee(String id, String name) {
 		super(id, name);
 	}
 

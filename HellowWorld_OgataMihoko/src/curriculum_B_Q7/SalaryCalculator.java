@@ -1,6 +1,6 @@
-package curriculum_B;
+package curriculum_B_Q7;
 
-class SalaryCalculatorQ7 {
+class SalaryCalculator {
 	public void printDailyPay(Payable employee, int hoursWorked) {// printDailyPayというメソッドを作成　Payableが実装されているため
 		int salary = employee.calculatePay(hoursWorked);// このemployeeはPayableの型を引き継いでる実際には FullTimeContractのcalculatePay()
 		System.out.println(employee.getName() + " さんの日給は " + salary + " 円です。");

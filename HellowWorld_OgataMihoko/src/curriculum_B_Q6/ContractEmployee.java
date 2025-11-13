@@ -1,7 +1,7 @@
-package curriculum_B;
+package curriculum_B_Q6;
 
-public class ContractEmployeeQ6 extends EmployeeQ6 {
-	public ContractEmployeeQ6(String id, String name) {
+public class ContractEmployee extends Employee {
+	public ContractEmployee(String id, String name) {
 		super(id, name);
 	}
 

@@ -1,4 +1,4 @@
-package curriculum_B;
+package curriculum_B_Q7;
 
 public interface Payable {// SOILDのOの部分、拡張を簡単にするためinterfaceで色々なところに適応できるように作成
 	int calculatePay(int hoursWorked);// 労働分の引数設定calculatePayというメソッドに変換

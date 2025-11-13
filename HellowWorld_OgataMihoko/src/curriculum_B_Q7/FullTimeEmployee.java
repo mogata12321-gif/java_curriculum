@@ -1,8 +1,8 @@
-package curriculum_B;
+package curriculum_B_Q7;
 
-public class FullTimeEmployeeQ7 extends EmployeeQ7 implements Payable {
+public class FullTimeEmployee extends Employee implements Payable {
 
-	public FullTimeEmployeeQ7(String name, int hours) {// SOILDのL、EmployeeQ7を邪魔しないように新しいメソッドを設置
+	public FullTimeEmployee(String name, int hours) {// SOILDのL、EmployeeQ7を邪魔しないように新しいメソッドを設置
 		super(name, hours);
 	}
 
