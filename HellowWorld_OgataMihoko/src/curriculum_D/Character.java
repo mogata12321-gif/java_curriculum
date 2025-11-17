@@ -1,4 +1,4 @@
-package cutticulum_D;
+package curriculum_D;
 
 public class Character {
 	protected String name;
@@ -19,7 +19,8 @@ public class Character {
 
 	public void attack(Character target) {// attackというメソッドとtargetという変数作成
 		target.hp = target.hp - this.at;
-		if (target.hp < 0)// targetのHPが0より小さくなった場合0と表記する
+		if (target.hp < 0){// targetのHPが0より小さくなった場合0と表記する
 			target.hp = 0;
+		}
 	}
 }

@@ -1,4 +1,4 @@
-package cutticulum_D;
+package curriculum_D;
 
 import java.io.FileWriter;
 import java.util.Random;
@@ -60,6 +60,7 @@ public class Question7 {
 		}
 
 		log.close();// メモを閉じる
+		sc.close();
 		System.out.println("バトルログを battle_log.txt に出力しました。");
 	}
 }

@@ -1,15 +1,19 @@
 package curriculum_C;
 
+import java.util.Scanner;
+
 public class Question6 {
 
 	public static void main(String[] args) {
 
-		Player player = new Player();// newで実体作成
-		CPU cpu = new CPU();
+		Scanner sc = new Scanner(System.in); 
+        Player player = new Player(sc);
+        CPU cpu = new CPU();
+
 
 		while (true) {
-			player.playerHand();// 作成した実態の中身を取り出す
-			cpu.cpuHand();
+			player.inputHand();// 作成した実態の中身を取り出す
+			cpu.decideHand();
 
 			System.out.println("あなたの手:" + player.playerHandwork());
 			System.out.println("CPUの手:" + cpu.cpuHandwork());
@@ -26,5 +30,6 @@ public class Question6 {
 				System.out.println("あなたの負け！");
 			}
 		}
+		sc.close();
 	}
 }

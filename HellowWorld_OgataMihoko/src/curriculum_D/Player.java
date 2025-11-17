@@ -1,4 +1,4 @@
-package cutticulum_D;
+package curriculum_D;
 
 import java.util.Random;
 

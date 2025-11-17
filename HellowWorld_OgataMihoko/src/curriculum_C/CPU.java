@@ -5,7 +5,7 @@ import java.util.Random;
 public class CPU {
 	private int hand;
 
-	public void cpuHand() {
+	public void decideHand() {
 		Random rand = new Random();
 		this.hand = rand.nextInt(3);
 	}

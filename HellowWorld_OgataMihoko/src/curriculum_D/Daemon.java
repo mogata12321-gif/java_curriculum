@@ -1,4 +1,4 @@
-package cutticulum_D;
+package curriculum_D;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -18,6 +18,10 @@ public class Daemon extends Character {
 			this.sp = Integer.parseInt(br.readLine());
 		} catch (Exception e) {// 数字以外の文字が入った場合エラーなのでExceptionを使用
 			System.out.println("デーモンデータの読み込みに失敗しました");
+			this.name = "デーモン";// デフォルト値設定
+            this.hp = 100;
+            this.at = 10;
+            this.sp = 5;
 		}
 	}
 }
