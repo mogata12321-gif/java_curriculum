@@ -4,11 +4,11 @@ public class Question6 {
 
 	public static void main(String[] args) {
 
-		Player player = new Player();
+		Player player = new Player();// newで実体作成
 		CPU cpu = new CPU();
 
 		while (true) {
-			player.playerHand();
+			player.playerHand();// 作成した実態の中身を取り出す
 			cpu.cpuHand();
 
 			System.out.println("あなたの手:" + player.playerHandwork());
