@@ -44,9 +44,7 @@ public class Question5 {
 		} else {
 			System.out.println(num2 + " は奇数です。");
 		}
-
+	}
 		// Q4：呼び出し→Mainクラスに作成
 		// Q5：呼び出し→Mainクラスに作成
-
-	}
 }

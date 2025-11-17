@@ -7,9 +7,9 @@ class Person {
 	double height;
 	// Q4
 	double weight;
-	static int count = 0; // 人数カウント用
+	static int count = 0; // 人数カウント用 Mainでも使用するためstatic必要
 
-	Person(String name, int age, double height, double weight) {
+	Person(String name, int age, double height, double weight) {// Personというメソッド作成
 		this.name = name;
 		this.age = age;
 		this.height = height;

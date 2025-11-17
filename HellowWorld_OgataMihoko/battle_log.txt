@@ -1,0 +1,18 @@
+=== バトルログ ===
+yui vs Daemon
+
+yui の攻撃 → Daemon のHP: 41
+Daemon の攻撃 → yui のHP: 85
+------------------------------
+yui の攻撃 → Daemon のHP: 29
+Daemon の攻撃 → yui のHP: 73
+------------------------------
+yui の攻撃 → Daemon のHP: 17
+Daemon の攻撃 → yui のHP: 61
+------------------------------
+yui の攻撃 → Daemon のHP: 5
+Daemon の攻撃 → yui のHP: 49
+------------------------------
+yui の攻撃 → Daemon のHP: 0
+
+勝者: yui

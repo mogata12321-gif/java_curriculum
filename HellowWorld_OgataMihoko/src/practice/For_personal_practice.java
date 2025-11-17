@@ -1,5 +1,9 @@
 package practice;
 
+import java.util.Random;
+import java.util.Scanner;
+
+
 public class For_personal_practice {
 
 	public static void main(String[] args) {
@@ -61,7 +65,16 @@ public class For_personal_practice {
 				}
 			}
 			System.out.println();
+			
 			// Question3 Q12
+			Scanner sc =new Scanner(System.in);
+			Random random = new Random();
+			System.out.println("入力してください（二つ以上の場合は『、』で分ける）：");
+			String box =sc.nextLine();
+			
+			
+			
+			
 			
 			
 		}
