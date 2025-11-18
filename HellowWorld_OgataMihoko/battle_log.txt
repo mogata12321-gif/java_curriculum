@@ -1,22 +1,18 @@
 === バトルログ ===
 あ vs Daemon
 
-あ の攻撃 → Daemon のHP: 74
-Daemon の攻撃 → あ のHP: 51
+あ の攻撃 → Daemon のHP: 68
+Daemon の攻撃 → あ のHP: 80
 ------------------------------
-あ の攻撃 → Daemon のHP: 63
-Daemon の攻撃 → あ のHP: 39
+あ の攻撃 → Daemon のHP: 51
+Daemon の攻撃 → あ のHP: 68
 ------------------------------
-あ の攻撃 → Daemon のHP: 52
-Daemon の攻撃 → あ のHP: 27
+あ の攻撃 → Daemon のHP: 34
+Daemon の攻撃 → あ のHP: 56
 ------------------------------
-あ の攻撃 → Daemon のHP: 41
-Daemon の攻撃 → あ のHP: 15
+あ の攻撃 → Daemon のHP: 17
+Daemon の攻撃 → あ のHP: 44
 ------------------------------
-あ の攻撃 → Daemon のHP: 30
-Daemon の攻撃 → あ のHP: 3
-------------------------------
-あ の攻撃 → Daemon のHP: 19
-Daemon の攻撃 → あ のHP: 0
+あ の攻撃 → Daemon のHP: 0
 
-勝者: Daemon
+勝者: あ

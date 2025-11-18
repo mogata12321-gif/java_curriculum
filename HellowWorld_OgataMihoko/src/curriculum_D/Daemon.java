@@ -17,11 +17,11 @@ public class Daemon extends Character {
 			this.at = Integer.parseInt(br.readLine());
 			this.sp = Integer.parseInt(br.readLine());
 		} catch (Exception e) {// 数字以外の文字が入った場合エラーなのでExceptionを使用
-			System.out.println("デーモンデータの読み込みに失敗しました");
+			System.out.println("Daemon 読み込み：失敗 → デフォルト値で起動します");
 			this.name = "デーモン";// デフォルト値設定
-            this.hp = 100;
-            this.at = 10;
-            this.sp = 5;
+			this.hp = 100;
+			this.at = 10;
+			this.sp = 5;
 		}
 	}
 }
